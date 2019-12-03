@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/tabrow">
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:id="@+id/txtview1"
+        android:textSize="@dimen/abc_text_size_body_1_material"
+        android:elegantTextHeight="true" />
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:id="@+id/txtview2"
+        android:textSize="@dimen/abc_text_size_body_1_material"
+        android:paddingEnd="@dimen/abc_control_padding_material"
+        android:password="false"
+        android:paddingStart="@dimen/abc_control_padding_material"
+        android:elegantTextHeight="true" />
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:id="@+id/txtview3"
+        android:textSize="@dimen/abc_text_size_body_1_material"
+        android:paddingEnd="@dimen/abc_control_padding_material"
+        android:elegantTextHeight="true" />
+</TableRow>
